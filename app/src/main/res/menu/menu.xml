@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/home_svg"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/cartFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/cart"
+        android:title="@string/cart_" />
+    <item
+        android:id="@+id/favouriteFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/favorite"
+        android:title="@string/favorites" />
+    <item
+        android:id="@+id/historyFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/history_svgrepo"
+        android:title="@string/history_" />
+    <item
+        android:id="@+id/profileFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/profile_2user_svgrepo"
+        android:title="@string/profile" />
+</menu>

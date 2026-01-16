@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="215dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:background="@drawable/white_bg"
+    android:elevation="3dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/pic_offer"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_margin="8dp"
+        android:elevation="4dp"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/CircleImageView"
+        android:src="@drawable/intro_bg" />
+
+    <TextView
+        android:id="@+id/titleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:fontFamily="@font/instagram_sans_medium"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/priceTxt_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/price"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:fontFamily="@font/instagram_sans_medium"
+        android:layout_margin="8dp"/>
+</LinearLayout>
